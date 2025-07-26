@@ -2,14 +2,12 @@ import Footer from "@/components/layouts/Footer";
 import Header from "@/components/layouts/Header";
 import React from "react";
 
-const index = () => {
+const Home = () => {
   return (
     <div>
-      <Header />
-      <h1>hi</h1>
-      <Footer />
+      <h1> Welcome to Splash App </h1>
     </div>
   );
 };
 
-export default index;
+export default Home;
